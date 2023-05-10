@@ -1,0 +1,11 @@
+[package]
+name = "drand-game"
+version = "0.0.1"
+published-at = "0xba6bd9aac847dfdd9bfbaef91a0989d926ceec51def0ec2fea712b6b99609d25"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet" }
+
+[addresses]
+drand_game =  "0x0"
+sui =  "0000000000000000000000000000000000000000000000000000000000000002"
